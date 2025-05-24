@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Tipo de documento HTML5 -->
+    <meta charset="UTF-8">
+    <!-- Configuramos el viewport para que sea compatible con dispositivos móviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título de la página que aparecerá en la pestaña del navegador -->
+    <title>Yami Studio</title>
+    <!-- Enlace a la hoja de estilos CSS ubicada en la carpeta css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+     <!-- Inicio del encabezado -->
+    <header>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+        <h1>Yami Studio</h1>
+        <!-- Breve descripción o introducción -->
+        <p>Salón de belleza especializado en manicura y pedicura</p>
+    </header>
+
+    <!-- Barra de navegación con enlaces a las demás páginas -->
+    <nav>
+        <a href="index.html" class="active">Inicio</a>
+        <a href="./Trabajofinal/cita.html" class="active">Pide tu cita</a>
+        <a href="./Trabajofinal/Galería.html" class="active">Galería</a>
+        <a href="./Trabajofinal/contacto.html" class="active">Contacto</a>
+    </nav>
+
+    <div class="container">
+        <!-- Servicios -->
+        <section class="section">
+            <h2>Servicios de manicura y pedicura</h2>
+            <div class="services-container">
+                <div class="service">
+                    <img src="images/Semipermanente.JPG" alt="Manicura" width="300" height="400">
+                    <p>Manicura</p>
+                </div>
+                <div class="service">
+                    <img src="images/Francesa.JPG" alt="Pedicura Francesa" width="300" height="400">
+                    <p>Pedicura Francesa</p>
+                </div>
+                <div class="service">
+                    <img src="images/Pedicura.JPG" alt="Pedicura" width="300" height="400">
+                    <p>Pedicura</p>
+                </div>
+                <div class="service">
+                    <img src="images/Acrílicas.JPG" alt="Uñas Acrílicas" width="300" height="400">
+                    <p>Uñas Acrílicas</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- JSON -->
+        <section id="noticias" class="section">
+            <h2>Últimas Noticias sobre Uñas</h2>
+            <div id="noticias-container"></div> <!-- Este es el contenedor donde se cargarán las noticias -->
+        </section>
+        
+        <!-- Ofertas -->
+        <section class="section">
+            <h2>Ofertas Especiales</h2>
+            <p>¡En tu décima cita, obtén un 20% de descuento por fidelización!</p>
+        </section>
+
+            <!-- Testimonios -->
+        <section class="section">
+            <h2>Testimonios de Clientes</h2>
+            <p>"¡Excelente servicio y atención personalizada! Totalmente recomendado."</p>
+            <p>"Estoy enamorada de mis uñas, ¡gracias Yami!"</p>
+        </section>
+    </div>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>
+            <a href="https://instagram.com/yamile.rodriguez.9022" target="_blank">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+            <a href="https://facebook.com/yamistudio" target="_blank"><i class="fab fa-facebook"></i> Facebook</a> |
+            Dirección: Av. Regimiento de Galicia, 11, 22700 Jaca, Huesca |
+            <a href="aviso_legal.html">Aviso Legal</a>
+        </p>
+    </footer>
+
+    <script src="js/index.js"></script>          
+</body>
+</html>
