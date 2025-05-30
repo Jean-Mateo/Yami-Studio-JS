@@ -70,9 +70,10 @@ nav a:hover {
 
 /* Contenedor principal */
 .container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
 }
 
 /* Secciones */
